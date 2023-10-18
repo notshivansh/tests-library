@@ -26,6 +26,8 @@ info:
     - "https://portswigger.net/kb/issues/00200901_jwt-none-algorithm-supported"
   cwe:
     - CWE-287  
+  cve:
+    - CVE-2015-9235
 
 auth:
   authenticated: true
