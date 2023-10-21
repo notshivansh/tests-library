@@ -24,6 +24,9 @@ info:
     - "https://crashtest-security.com/cors-misconfiguration/"
   cwe:
     - CWE-16
+  cve:
+    - CVE-2021-27786
+    - CVE-2021-26991
 
 auth:
   authenticated: true
@@ -34,7 +37,7 @@ api_selection_filters:
     lt: 300
 
 execute:
-  type: single
+  type: single  
   requests:
     - req:
       - add_header:
